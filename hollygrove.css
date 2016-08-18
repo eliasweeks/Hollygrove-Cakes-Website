@@ -29,7 +29,7 @@ body {
 #header {
   text-align:center;
   background-color: #FFFFFF;
-  margin-bottom:0px;
+  margin-bottom:0;
 }
 
 h1 {
@@ -132,7 +132,7 @@ video {
 #gallery li {
   display: block;
   padding: 15px;
-  margin-left: 100 px;
+  margin-left: 100px;
 }
 
 #gallery img {border-style: none;}
@@ -158,30 +158,24 @@ video {
 ********************/
 #resForm {
   background-color: #FFFFFF
-  width: 350 px;
-  padding: 10 px;
-  margin-left:300px;
-  margin-bottom: 270px;
+  width: 350px;
+  padding: 10px;
 }
 
 #resForm label {
   float: left;
-  width: 200 px;
+  width: 200px;
   display: block;
   clear: left;
   text-align: left;
-  padding-right: 10 px;
-  margin-right: 300px:
-  margin-top: 10 px;
+  padding: 5px;
 }
 
 #resForm input {
   float: right;
-  margin-right: 200px;
-  margin-top: 10 px;
   display: block;
   clear: right;
-  width: 150 px;
+  width: 150px;
 }
 
 #resForm input[type=number] { width: 50px;}
