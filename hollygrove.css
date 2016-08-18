@@ -1,0 +1,189 @@
+/**********************
+  CUSTOM FONT(S) USED
+**********************/
+@font-face {
+  font-family: Kaushan;
+  src: url(fonts/KaushanScript.otf);
+}
+	
+/******************
+  BASIC ELEMENTS
+******************/
+body {
+  background-color: #F7E2CD;
+  background-image: url(images/wall2.png);
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  background-color: #552B35;
+  min-width: 700px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px #828282;
+  -webkit-box-shadow: 10px 10px 10px #828282;
+  -mox-box-shadow: 10px 10px 10px #828282;
+}
+
+#header {
+  text-align:center;
+  background-color: #FFFFFF;
+  margin-bottom:0px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Kaushan, serif;
+  font-size: 32pt;
+}
+
+#content {
+  background-color: #F7E2CD;
+  color: #000000;
+  margin-top: 0 50px;
+  padding: 10px 50px;
+  overflow: auto;
+}
+
+#footer {
+  font-size: 70%;
+  font-family: Times New Roman, serif;
+  text-align: center;
+  padding: 10px;
+  background-color: #FFFFFF;
+  clear: both;
+}
+
+p.center {
+  text-align: center;
+  margin: 20px 20px;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.cenItalic {
+  text-align: center;
+  font-style: italic;
+}
+
+.bold {font-weight:bold;}
+
+.italic {font-style:italic;}
+
+	
+.floatR {
+  float: right;
+  padding-right: 20px;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+/*********************
+  NAVIGATION COLUMN
+*********************/   
+#nav {
+  font-family: Kaushan, serif;
+  font-size: 14pt;
+  float: left;
+  width: 150px;
+  padding: 20px 15px;
+}
+
+#nav ul	{list-style-image: url(images/bullet.png);}
+
+#nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  background-color: #552B35;
+}
+
+#nav hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color:#CCCCCC;
+  height: 1px;
+}
+
+#nav a:hover {background-color: #D3859F;}
+
+/***********
+  GALLERY
+***********/
+#gallery {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#gallery ul {
+  width: 500px;
+  list-style-type: none;
+}
+
+#gallery li {
+  display: block;
+  padding: 15px;
+  margin-left: 100 px;
+}
+
+#gallery img {border-style: none;}
+
+#gallery a {
+  text-decoration: none;
+  color: #552B35;
+  font-style:italic;
+}
+
+#gallery span {display: none;}
+
+#gallery a:hover span {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 300px;
+  text-align: center;
+}
+
+/********************
+  RESERVATION FORM
+********************/
+#resForm {
+  background-color: #FFFFFF
+  width: 350 px;
+  padding: 10 px;
+  margin-left:300px;
+  margin-bottom: 270px;
+}
+
+#resForm label {
+  float: left;
+  width: 200 px;
+  display: block;
+  clear: left;
+  text-align: left;
+  padding-right: 10 px;
+  margin-right: 300px:
+  margin-top: 10 px;
+}
+
+#resForm input {
+  float: right;
+  margin-right: 200px;
+  margin-top: 10 px;
+  display: block;
+  clear: right;
+  width: 150 px;
+}
+
+#resForm input[type=number] { width: 50px;}
+
+#resForm input[type=date] { width: 145px;}
